@@ -23,6 +23,7 @@
     border-radius: 15px;
     border-style: outset;
     cursor: pointer;
+    line-height：100；
 }
 
 /* 分割线样式 */
@@ -50,6 +51,5 @@
     color: rgb(34, 39, 46);
 }
 a{
-    /* cursor: pointer; */
     text-decoration: none;
 }
