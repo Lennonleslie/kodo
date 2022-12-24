@@ -18,6 +18,8 @@
     height: 80px;
     margin: 10px;
     text-align: center;
+    font-size: 40px;
+    font-weight: bold;
     border-radius: 15px;
     border-style: outset;
     cursor: pointer;
@@ -37,15 +39,17 @@
 /* 绿色调 */
 .bcg {
     background-color: rgba(52, 148, 105);
-    border-color: rgb(30, 87, 61);
+    border-color: rgba(92, 188, 145);
     color: rgb(34, 39, 46);
 }
 
 /* 灰白色调 */
 .bcw {
     background-color: rgb(173, 186, 199);
+    border-color: rgba(213, 226, 239);
     color: rgb(34, 39, 46);
 }
-#a{
-    cursor: pointer;
+a{
+    /* cursor: pointer; */
+    text-decoration: none;
 }
