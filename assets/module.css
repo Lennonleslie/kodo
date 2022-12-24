@@ -15,15 +15,17 @@
 /* 卡片样式 */
 .tab_control {
     width: 100%;
-    height: 80px;
     margin: 10px;
     text-align: center;
-    font-size: 40px;
     font-weight: bold;
     border-radius: 15px;
     border-style: outset;
     cursor: pointer;
-    line-height：100；
+}
+.tab_size {
+    height: 80px;
+    font-size: 40px;
+    line-height: 75px;
 }
 
 /* 分割线样式 */
