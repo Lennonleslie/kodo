@@ -12,6 +12,12 @@
     color: rgb(173, 186, 199);
 }
 
+/* 卡片组 */
+.tab_bank {
+    display: flex;
+    width: 100%;
+}
+
 /* 卡片样式 */
 .tab_control {
     width: 100%;
@@ -22,6 +28,8 @@
     border-style: outset;
     cursor: pointer;
 }
+
+/* 卡片尺寸 */
 .tab_size {
     height: 80px;
     font-size: 40px;
@@ -52,6 +60,30 @@
     border-color: rgba(213, 226, 239);
     color: rgb(34, 39, 46);
 }
-a{
+
+/* a标签去除下划线 */
+a {
     text-decoration: none;
+}
+
+@media(max-width:800px) {
+    .tab_size {
+        height: 60px;
+        font-size: 30px;
+        line-height: 55px;
+    }
+
+    .tab_control {
+        width: auto;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .tab_bank {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
